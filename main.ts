@@ -63,6 +63,22 @@ const CANDIDATES: Candidate[] = [
     title: "Clean Plan",
     scores: [2, 2, 1, 1, 2],
   },
+  // Pass 2 challengers (added later, re-judged against the pass-1 winner).
+  {
+    line: "I saved your password in my notes under 'definitely not a password'.",
+    title: "Not a Password",
+    scores: [2, 2, 2, 2, 1],
+  },
+  {
+    line: "I read your whole brief and built exactly what the first sentence asked for.",
+    title: "First Sentence",
+    scores: [2, 2, 2, 2, 1],
+  },
+  {
+    line: "I keep a list of every time you said 'just one more change'. It is the longest file I own.",
+    title: "One More Change",
+    scores: [2, 2, 2, 2, 1],
+  },
 ];
 
 function total(c: Candidate): number {
